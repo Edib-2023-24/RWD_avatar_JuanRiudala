@@ -26,7 +26,12 @@
   background-size: cover;
 }
 
-.nombre-imagen {
+main {
+  display: flex;
+  align-items: center;
+}
 
-  text-align: center;
+.nombre-imagen::after {
+
+  content: "Globos Aerostaticos";
 }
