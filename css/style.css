@@ -6,28 +6,27 @@
 /* *** ESTILOS GENERALES *** */
 /* *********************************** */
 
-/* Tipografía */
-@font-face {
-  font-family: "";
-  src: url("") format("woff2"), url("") format("woff");
-}
+#container {
 
-/* ******************************** */
-
-/* Colores */
-
-/* ******************************** */
-body {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .img-circular {
+
+  display: block;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
+  background: url("../img/globos.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.text-center {
-  font-size: 23px;
+.nombre-imagen {
+
   text-align: center;
 }
