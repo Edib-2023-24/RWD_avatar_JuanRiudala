@@ -17,3 +17,17 @@
 /* Colores */
 
 /* ******************************** */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-circular {
+  border-radius: 50%;
+}
+
+.text-center {
+  font-size: 23px;
+  text-align: center;
+}
